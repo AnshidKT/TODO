@@ -5,14 +5,18 @@
   .container {
     width: 100%;
     height: 100vh;
+    background-color: black;
   }
-  .img {
-    width: 100%;
-    height: 100vh;
+  .img-2{
+    display: inline;
   }
+  .img{
+    display: none;
+  }
+
   #sub {
     width: 80%;
-    position: absolute;
+     position: absolute;
     height: 500px;
     display: flex;
     flex-direction: column;

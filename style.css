@@ -1,0 +1,105 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(
+    to right,
+    rgb(1, 90, 112),
+    rgb(251, 254, 255)
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.img {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+#sub {
+  width: 70%;
+  position: absolute;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#form {
+  width: 750px;
+  height: 90px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#input {
+  text-align: center;
+  width: 550px;
+  height: 60px;
+  box-shadow: 0 0 10px gray;
+  border: 0;
+  font-size: 20px;
+  border-radius: 10px;
+  font-weight: bold;
+  color: black;
+}
+#submit-bt {
+  width: 120px;
+  height: 50px;
+  background-color: orangered;
+  border: 0;
+  font-size: 17px;
+  font-weight: bold;
+  border-radius: 10px;
+  box-shadow: 0 0 10px gray;
+}
+
+.hiden-form {
+  width: 600px;
+  height: 90px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+.hiden-input {
+  width: 410px;
+  height: 60px;
+  box-shadow: 0 0 10px gray;
+  text-align: center;
+  background-image: linear-gradient(
+    to right,
+    rgb(148, 208, 248),
+    rgb(238, 252, 255)
+  );
+  display: flex;
+  border-radius: 10px;
+  border: 0;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+}
+.edit-bt {
+  width: 70px;
+  height: 40px;
+  border: 0;
+  border-radius: 10px;
+  box-shadow: 0 0 5px gray;
+  background-color: rgb(250, 252, 160);
+  font-size: 15px;
+  font-weight: bold;
+}
+.delete-bt {
+  width: 70px;
+  height: 40px;
+  border: 0;
+  border-radius: 10px;
+  box-shadow: 0 0 5px gray;
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(145, 0, 0);
+}
